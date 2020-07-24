@@ -28,6 +28,17 @@ body::-webkit-scrollbar {
   padding: 4.5rem 0;
 }
 
+.btn-hover {
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-hover:hover,
+.btn-hover:focus {
+  transform: translateY(5px);
+  outline: none;
+}
+
 .container {
   max-width: 1440px;
   background: hsl(218, 28%, 13%);
@@ -56,6 +67,7 @@ body::-webkit-scrollbar {
   list-style: none;
   display: flex;
   font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
 }
 
 .header__nav-list-items:not(:first-child) {
@@ -154,6 +166,12 @@ body::-webkit-scrollbar {
   display: block;
 }
 
+.arrow {
+  margin-left: 4px;
+  width: 15px;
+  transform: translateY(20%);
+}
+
 .mid-section__info a .arrow {
   transition: all 0.3s ease-in-out;
 }
@@ -173,12 +191,6 @@ body::-webkit-scrollbar {
   color: hsl(176, 68%, 64%);
   padding-bottom: 0.5em;
   border-bottom: 0.5px solid hsl(176, 68%, 64%);
-}
-
-.arrow {
-  margin-left: 4px;
-  width: 15px;
-  transform: translateY(20%);
 }
 
 .testimonials {
@@ -262,6 +274,7 @@ body::-webkit-scrollbar {
 .signup-form__input:focus {
   border: none;
 }
+
 .signup-form__btn {
   text-decoration: none;
   color: #fff;
