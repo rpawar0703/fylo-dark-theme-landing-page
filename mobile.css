@@ -1,0 +1,318 @@
+.center {
+  margin: 0 1.5rem;
+  padding: 2rem 0;
+}
+
+.intro-bg {
+  background-image: url(./images/bg-curvy-mobile.svg);
+  background-size: contain;
+}
+
+.header__nav-logo {
+  width: 100px;
+}
+
+.header__nav-list-items:not(:first-child) {
+  margin-left: 1.25em;
+}
+
+.header__nav-list-items a {
+  font-size: 0.9em;
+}
+
+.header__img {
+  margin: 3.5em auto;
+  width: 80%;
+}
+
+.header__info {
+  width: 100%;
+}
+
+.header__heading {
+  font-size: 1.35rem;
+  line-height: 1.4;
+}
+
+.header__intro {
+  padding: 0 1em;
+}
+
+.features {
+  display: block;
+}
+
+.features__box {
+  margin: 3em 0;
+}
+
+.features__img {
+  width: 60px;
+}
+
+.mid-section {
+  flex-direction: column;
+}
+
+.mid-section__image {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.mid-section__info {
+  padding: 3em 0;
+}
+
+.mid-section__info-heading {
+  font-size: 1.25rem;
+}
+
+.mid-section__info-heading span {
+  display: inline;
+}
+
+.testimonials {
+  flex-direction: column;
+}
+
+.testimonials-box {
+  margin: 1em;
+}
+
+.signup-form {
+  margin-top: 7em;
+  max-width: 100%;
+  margin-bottom: -12em;
+}
+
+.signup-form__heading {
+  padding-top: 0.5em;
+  font-size: 1.5em;
+}
+
+.signup-form__info {
+  padding: 0 1.5em 2em;
+}
+
+.signup-form__input {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+}
+
+.signup-form__btn {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.footer {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.25rem;
+}
+
+.footer__content {
+  display: block;
+}
+
+.footer__logo {
+  width: 130px;
+  margin-top: 6rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer__about p {
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.footer__about p span {
+  padding-left: 1.5em;
+  padding-right: 3.5em;
+}
+
+.footer__contact {
+  margin-bottom: 7em;
+}
+
+.footer__nav-1 {
+  margin-bottom: 3.5em;
+}
+
+.footer__nav-2 {
+  margin-bottom: 5em;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__social a:not(:last-child) {
+  margin-right: 0.75em;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .center {
+    margin: 0 3rem;
+    padding: 3rem 0;
+  }
+
+  .header__nav-logo {
+    width: 175px;
+  }
+
+  .header__nav-list-items a {
+    font-size: 1em;
+  }
+
+  .header__nav-list-items:not(:first-child) {
+    margin-left: 3.625em;
+  }
+
+  .header__info {
+    width: 75%;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .features__box {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  .mid-section {
+    flex-direction: row;
+  }
+
+  .mid-section__img {
+    width: 40%;
+  }
+
+  .mid-section__image {
+    width: 100%;
+  }
+
+  .mid-section__info {
+    width: 60%;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .testimonials {
+    flex-direction: row;
+  }
+
+  .signup-form {
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-bottom: -8em;
+  }
+
+  .signup-form__heading {
+    font-size: 1.5rem;
+  }
+  .signup-form__info {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .signup-form__input {
+    display: inline-block;
+    margin-bottom: 1.5em;
+    width: 50%;
+  }
+
+  .signup-form__btn {
+    display: inline;
+    margin-left: 1.5em;
+  }
+
+  .footer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .footer__content {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 768px) {
+  .center {
+    margin: 0 3rem;
+    padding: 3rem 0;
+  }
+
+  .header__nav-logo {
+    width: 140px;
+  }
+
+  .header__nav-list-items a {
+    font-size: 1em;
+  }
+
+  .header__nav-list-items:not(:first-child) {
+    margin-left: 2.5em;
+  }
+
+  .header__info {
+    width: 80%;
+  }
+
+  .features__box {
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+  }
+
+  /* .mid-section {
+    flex-direction: row;
+  } */
+
+  .mid-section__image {
+    width: 70%;
+  }
+
+  .mid-section__info {
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .signup-form {
+    margin: 2em 7em -10em;
+  }
+
+  .signup-form__heading {
+    font-size: 1.5rem;
+  }
+  .signup-form__info {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .signup-form__input {
+    display: block;
+    margin-bottom: 1.5em;
+    width: 75%;
+  }
+
+  .signup-form__btn {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .footer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0 auto;
+  }
+}
